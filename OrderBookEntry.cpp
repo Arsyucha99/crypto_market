@@ -5,3 +5,9 @@ OrderBookEntry::OrderBookEntry(double _price, double _amount, std::string _times
 {
 
 }
+
+OrderBookType OrderBookEntry::str_to_OrderBooktype(std::string s) {
+    if (s == "bid") return OrderBookType::bid;
+    if (s == "ask") return OrderBookType::ask;
+    return OrderBookType::uknown;
+}
