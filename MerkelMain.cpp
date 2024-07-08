@@ -34,7 +34,7 @@ void MerkelMain::print_menu() {
 unsigned short MerkelMain::get_user_option() {
     unsigned short userOption;
     std::cin >> userOption;
-    std::cout << "You chose: " << userOption << std::endl;
+    std::cout << "You've chosen: " << userOption << std::endl;
     return userOption;
 }
 
