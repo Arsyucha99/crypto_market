@@ -7,10 +7,10 @@
 
 int main() {
 
-    //MerkelMain app{};
-    //app.init();
+    MerkelMain app{};
+    app.init();
 
-    CSVReader reader;
+    //CSVReader::readCSV("data.csv");
 
 return 0;
 }
